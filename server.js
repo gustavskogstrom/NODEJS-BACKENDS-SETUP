@@ -29,3 +29,5 @@ app.post('/api/1/workouts', async (req, res) => {
 const PORT = 5000;
 
 app.listen(PORT, () => console.log(`Server is running on port: ${PORT}`));
+
+// json-server --watch workouts.json
